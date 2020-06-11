@@ -33,21 +33,16 @@ REM file related programs
 choco install filezilla google-drive-file-stream plexmediaserver qbittorrent utorrent
 
 REM read/publishing related programs
-choco install gimp libreoffice-fresh calibre foxitreader audacity miktex pdfsam.install kodi texmaker sketchup 
+choco install libreoffice-fresh calibre foxitreader audacity miktex pdfsam.install kodi texmaker sketchup 
 
 REM tools
-choco install pycharm-community kitty hugo cygwin cyg-get python pip pandoc microsoft-windows-terminal classic-shell greenshot 7zip.install openssh youtube-dl ffmpeg winrar malwarebytes putty.install sysinternals autoruns autohotkey.portable winlogbeat curl wget winscp.install openvpn grepwin selenium gnuwin32-coreutils.install jetbrainstoolbox wsl octave.portable 
+choco install kitty hugo cygwin cyg-get python pip pandoc microsoft-windows-terminal classic-shell greenshot 7zip.install openssh youtube-dl ffmpeg winrar malwarebytes putty.install sysinternals autoruns autohotkey.portable winlogbeat curl wget winscp.install openvpn grepwin selenium gnuwin32-coreutils.install jetbrainstoolbox wsl octave.portable 
 rem kitty is an extended version of putty
-
+rem hugo makes websites from a directory
 
 REM development
 choco install vscode atom make cppcheck plantuml git tortoisegit virtualbox vim cmakegolang mingw teraterm doxygen sourcetree
 
-
-android-apk  minikube docker-desktop kubernertes-cli
-
-REM CI
-kvrt jenkins-x kubernernetes-helm
 
 REM create exe
 choco install innosetup 
@@ -63,3 +58,12 @@ REM choco install oldcalc
 
 REM project management
 choco install ganttproject freemind evernote
+
+rem MISC
+rem android-apk  minikube docker-desktop kubernertes-cli
+
+rem not working
+rem pycharm-community gimp
+
+REM CI
+rem kvrt jenkins-x kubernernetes-helm
